@@ -60,7 +60,7 @@ Distribute tasks to nodes in microcluster
 ```
 $ microcluster_exec -F /dev/ttyACM0 ./main.py
 microcluster: detected program language Python
-microcluster: detected task process_unet_nodek
+microcluster: detected task nodek
 microcluster: ack from aggregator at /dev/ttyACM0
 microcluster: computer info:
   nodes:
