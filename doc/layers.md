@@ -28,7 +28,7 @@ import numpy
 from typing.performance import parallel as parallel
 
 @parallel()
-async def main():
+async def nodek():
     # ...
 ```
 
@@ -36,11 +36,11 @@ File: `main.py`
 
 ```python
 #!/usr/bin/env python3
-from process_unet_nodek import main as process_unet_nodek
+from process_unet_nodek import nodek as process_unet_nodek
 import asyncio
 
 async def main():
-    await process_unet_nodek()
+    await nodek()
 
 if __name__ == "__main__":
     async.run(main())
