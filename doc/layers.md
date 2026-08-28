@@ -6,8 +6,9 @@ Default program
 #!/usr/bin/env python3
 import numpy
 
-def process_unet_nodek():
-    # ...
+class process_unet_nodek:
+    def nodek():
+        # ...
 
 def main():
     # ...
